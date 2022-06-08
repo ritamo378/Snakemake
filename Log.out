@@ -1,0 +1,73 @@
+STAR version=2.7.10a
+STAR compilation time,server,dir=2022-01-14T18:50:00-05:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+STAR git: On branch master ; commit ae26add7ea1724f3281ec8abedb71bcff6a4ae73 ; diff files: CHANGES.md README.md RELEASEnotes.md doc/STARmanual.pdf extras/doc-latex/STARmanual.tex extras/doc-latex/convertParDefToLatexTable.awk extras/doc-latex/parametersDefault.tex extras/docker/Dockerfile source/VERSION 
+##### Command Line:
+STAR --runThreadN 1 --genomeDir chr19_20Mb --readFilesIn reads/A_R1.fastq reads/A_R2.fastq --outStd BAM_SortedByCoordinate --outSAMtype BAM SortedByCoordinate
+##### Initial USER parameters from Command Line:
+outStd                            BAM_SortedByCoordinate
+###### All USER parameters from Command Line:
+runThreadN                    1     ~RE-DEFINED
+genomeDir                     chr19_20Mb     ~RE-DEFINED
+readFilesIn                   reads/A_R1.fastq   reads/A_R2.fastq        ~RE-DEFINED
+outStd                        BAM_SortedByCoordinate     ~RE-DEFINED
+outSAMtype                    BAM   SortedByCoordinate        ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        1
+genomeDir                         chr19_20Mb
+readFilesIn                       reads/A_R1.fastq   reads/A_R2.fastq   
+outStd                            BAM_SortedByCoordinate
+outSAMtype                        BAM   SortedByCoordinate   
+
+-------------------------------
+##### Final effective command line:
+STAR   --runThreadN 1   --genomeDir chr19_20Mb   --readFilesIn reads/A_R1.fastq   reads/A_R2.fastq      --outStd BAM_SortedByCoordinate   --outSAMtype BAM   SortedByCoordinate   
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+WARNING: --limitBAMsortRAM=0, will use genome size as RAM limit for BAM sorting
+Finished loading and checking parameters
+Reading genome generation parameters:
+### STAR   --runMode genomeGenerate      --runThreadN 1   --genomeDir chr19_20Mb   --genomeFastaFiles annotation/chr19_20Mb.fa      --outTmpDir /tmp/tmpozat4amn/STARtmp   --sjdbGTFfile annotation/chr19_20Mb.gtf   --sjdbOverhang 100
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              annotation/chr19_20Mb.fa        ~RE-DEFINED
+genomeSAindexNbases           14     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  100     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   annotation/chr19_20Mb.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               20385083   165321753        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 1
+1	chr19	19999999	0
+--sjdbOverhang = 100 taken from the generated genome
+Started loading the genome: Wed Jun  8 16:06:36 2022
+
+Genome: size given as a parameter = 20385083
+SA: size given as a parameter = 165321753
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=14  nSAi=357913940
+nGenome=20385083;  nSAbyte=165321753
+GstrandBit=32   SA number of indices=40078000
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 20385083 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 20385083 bytes
+SA file size: 165321753 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 165321753 bytes
+Loading SAindex ... done: 1565873619 bytes
+Finished loading the genome: Wed Jun  8 16:06:38 2022
+
+Processing splice junctions database sjdbN=995,   pGe.sjdbOverhang=100 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
