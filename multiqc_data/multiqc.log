@@ -1,0 +1,292 @@
+[2022-06-05 17:07:39,468] multiqc                                            [DEBUG  ]  This is MultiQC v1.12
+[2022-06-05 17:07:39,468] multiqc                                            [DEBUG  ]  No MultiQC config found: /students/rita.monstvilaite/anaconda3/envs/snakemaken/lib/python3.9/site-packages/multiqc_config.yaml
+[2022-06-05 17:07:39,468] multiqc                                            [DEBUG  ]  No MultiQC config found: /students/rita.monstvilaite/.multiqc_config.yaml
+[2022-06-05 17:07:39,468] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2022-06-05 17:07:39,468] multiqc                                            [DEBUG  ]  Command used: /students/rita.monstvilaite/anaconda3/envs/snakemaken/bin/multiqc --force -o qc -n multiqc.html qc/fastqc/A_R1_fastqc qc/fastqc/H_R2_fastqc qc/fastqc/C_R1_fastqc qc/fastqc/C_R2_fastqc qc/fastqc/A_R2_fastqc qc/fastqc/H_R1_fastqc qc/fastqc/F_R2_fastqc qc/fastqc/B_R1_fastqc qc/fastqc/G_R2_fastqc qc/fastqc/G_R1_fastqc qc/fastqc/D_R1_fastqc qc/fastqc/E_R1_fastqc qc/fastqc/F_R1_fastqc qc/fastqc/B_R2_fastqc qc/fastqc/E_R2_fastqc qc/fastqc/D_R2_fastqc
+[2022-06-05 17:07:40,043] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.12
+[2022-06-05 17:07:40,043] multiqc                                            [DEBUG  ]  Command     : /students/rita.monstvilaite/anaconda3/envs/snakemaken/bin/multiqc --force -o qc -n multiqc.html qc/fastqc/A_R1_fastqc qc/fastqc/H_R2_fastqc qc/fastqc/C_R1_fastqc qc/fastqc/C_R2_fastqc qc/fastqc/A_R2_fastqc qc/fastqc/H_R1_fastqc qc/fastqc/F_R2_fastqc qc/fastqc/B_R1_fastqc qc/fastqc/G_R2_fastqc qc/fastqc/G_R1_fastqc qc/fastqc/D_R1_fastqc qc/fastqc/E_R1_fastqc qc/fastqc/F_R1_fastqc qc/fastqc/B_R2_fastqc qc/fastqc/E_R2_fastqc qc/fastqc/D_R2_fastqc
+[2022-06-05 17:07:40,044] multiqc                                            [DEBUG  ]  Working dir : /students/rita.monstvilaite/Snakemake
+[2022-06-05 17:07:40,044] multiqc                                            [DEBUG  ]  Template    : default
+[2022-06-05 17:07:40,044] multiqc                                            [DEBUG  ]  Running Python 3.9.13 | packaged by conda-forge | (main, May 27 2022, 16:56:21)  [GCC 10.3.0]
+[2022-06-05 17:07:40,046] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, odgi, pangolin, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2022-06-05 17:07:40,046] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpywksk5rt
+[2022-06-05 17:07:40,510] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/A_R1_fastqc
+[2022-06-05 17:07:40,510] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/H_R2_fastqc
+[2022-06-05 17:07:40,510] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/C_R1_fastqc
+[2022-06-05 17:07:40,510] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/C_R2_fastqc
+[2022-06-05 17:07:40,510] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/A_R2_fastqc
+[2022-06-05 17:07:40,510] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/H_R1_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/F_R2_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/B_R1_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/G_R2_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/G_R1_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/D_R1_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/E_R1_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/F_R1_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/B_R2_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/E_R2_fastqc
+[2022-06-05 17:07:40,511] multiqc                                            [INFO   ]  Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/D_R2_fastqc
+[2022-06-05 17:07:40,595] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,597] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,597] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,601] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,601] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,601] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,601] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,601] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,601] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,601] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,736] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,750] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:40,751] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:40,751] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:40,754] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:40,760] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:40,838] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,840] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,840] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,844] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,844] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,844] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,844] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,844] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,844] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,844] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,980] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:40,994] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:40,995] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:40,996] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:40,998] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,003] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,081] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,083] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,083] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,087] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,087] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,087] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,087] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,087] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,087] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,087] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,222] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,236] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,237] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,238] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,241] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,246] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,325] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,326] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,327] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,330] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,330] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,330] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,330] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,330] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,331] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,331] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,467] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,481] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,482] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,483] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,485] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,491] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,569] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,571] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,571] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,575] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,575] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,575] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,575] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,575] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,575] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,575] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,717] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,734] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,736] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,736] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,739] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,745] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,830] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,832] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,832] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,836] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,836] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,836] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,836] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,836] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,836] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,836] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,971] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:41,984] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,986] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,986] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,989] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:41,993] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,072] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,074] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,074] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,078] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,078] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,078] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,078] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,078] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,078] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,078] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,214] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,227] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,229] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,229] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,232] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,236] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,315] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,316] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,317] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,320] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,320] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,320] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,321] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,321] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,321] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,321] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,456] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,469] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,471] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,471] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,474] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,479] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,558] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,560] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,560] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,563] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,563] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,564] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,564] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,564] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,564] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,564] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,701] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,714] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,716] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,716] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,719] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,724] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,803] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,804] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,805] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,808] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,808] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,808] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,808] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,809] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,809] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,809] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,942] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:42,955] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,957] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,957] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,960] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:42,964] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,043] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,045] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,045] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,048] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,049] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,049] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,049] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,049] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,049] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,049] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,183] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,197] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,198] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,198] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,201] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,207] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,285] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,287] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,287] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,291] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,291] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,291] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,291] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,291] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,291] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,291] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,424] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,437] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,439] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,439] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,441] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,446] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,525] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,527] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,527] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,530] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,531] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,531] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,531] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,531] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,531] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,531] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,664] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,677] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,679] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,679] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,682] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,686] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,764] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,766] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,766] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,770] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,770] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,770] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,770] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,770] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,770] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,770] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,906] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:43,920] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,922] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,922] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,925] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:43,931] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,008] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,010] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,010] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,013] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,014] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,014] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,014] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,014] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,014] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,014] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,148] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,162] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,163] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,163] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,166] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,170] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,249] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,250] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,251] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,254] multiqc                                            [DEBUG  ]  File ignored by vep/vep_txt because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,254] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,254] multiqc                                            [DEBUG  ]  File ignored by rockhopper because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,254] multiqc                                            [DEBUG  ]  File ignored by rseqc/bam_stat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,254] multiqc                                            [DEBUG  ]  File ignored by rseqc/junction_annotation because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,255] multiqc                                            [DEBUG  ]  File ignored by rseqc/read_distribution because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,255] multiqc                                            [DEBUG  ]  File ignored by rseqc/infer_experiment because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,391] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc_report.html
+[2022-06-05 17:07:44,405] multiqc                                            [DEBUG  ]  File ignored by ccs/v4 because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,406] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,406] multiqc                                            [DEBUG  ]  File ignored by lima/summary because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,409] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:44,415] multiqc                                            [DEBUG  ]  File ignored by nanostat because it exceeded search pattern filesize limit: fastqc.fo
+[2022-06-05 17:07:48,193] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.5.2
+[2022-06-05 17:07:48,194] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.5.2
+[2022-06-05 17:07:52,038] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 16 reports
+[2022-06-05 17:07:52,325] multiqc                                            [INFO   ]  Compressing plot data
+[2022-06-05 17:07:52,757] multiqc                                            [INFO   ]  Report      : qc/multiqc.html
+[2022-06-05 17:07:52,758] multiqc                                            [INFO   ]  Data        : qc/multiqc_data
+[2022-06-05 17:07:52,758] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpywksk5rt/multiqc_data' to 'qc/multiqc_data'
+[2022-06-05 17:07:52,935] multiqc                                            [INFO   ]  MultiQC complete

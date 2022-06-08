@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	A_R1	/students/rita.monstvilaite/Snakemake/qc/fastqc/A_R1_fastqc/fastqc_data.txt
+FastQC	all_sections	H_R2	/students/rita.monstvilaite/Snakemake/qc/fastqc/H_R2_fastqc/fastqc_data.txt
+FastQC	all_sections	C_R1	/students/rita.monstvilaite/Snakemake/qc/fastqc/C_R1_fastqc/fastqc_data.txt
+FastQC	all_sections	C_R2	/students/rita.monstvilaite/Snakemake/qc/fastqc/C_R2_fastqc/fastqc_data.txt
+FastQC	all_sections	A_R2	/students/rita.monstvilaite/Snakemake/qc/fastqc/A_R2_fastqc/fastqc_data.txt
+FastQC	all_sections	H_R1	/students/rita.monstvilaite/Snakemake/qc/fastqc/H_R1_fastqc/fastqc_data.txt
+FastQC	all_sections	F_R2	/students/rita.monstvilaite/Snakemake/qc/fastqc/F_R2_fastqc/fastqc_data.txt
+FastQC	all_sections	B_R1	/students/rita.monstvilaite/Snakemake/qc/fastqc/B_R1_fastqc/fastqc_data.txt
+FastQC	all_sections	G_R2	/students/rita.monstvilaite/Snakemake/qc/fastqc/G_R2_fastqc/fastqc_data.txt
+FastQC	all_sections	G_R1	/students/rita.monstvilaite/Snakemake/qc/fastqc/G_R1_fastqc/fastqc_data.txt
+FastQC	all_sections	D_R1	/students/rita.monstvilaite/Snakemake/qc/fastqc/D_R1_fastqc/fastqc_data.txt
+FastQC	all_sections	E_R1	/students/rita.monstvilaite/Snakemake/qc/fastqc/E_R1_fastqc/fastqc_data.txt
+FastQC	all_sections	F_R1	/students/rita.monstvilaite/Snakemake/qc/fastqc/F_R1_fastqc/fastqc_data.txt
+FastQC	all_sections	B_R2	/students/rita.monstvilaite/Snakemake/qc/fastqc/B_R2_fastqc/fastqc_data.txt
+FastQC	all_sections	E_R2	/students/rita.monstvilaite/Snakemake/qc/fastqc/E_R2_fastqc/fastqc_data.txt
+FastQC	all_sections	D_R2	/students/rita.monstvilaite/Snakemake/qc/fastqc/D_R2_fastqc/fastqc_data.txt
