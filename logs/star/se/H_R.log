@@ -1,0 +1,7 @@
+	STAR --runThreadN 1 --genomeDir chr19_20Mb --readFilesIn reads/H_R1.fastq reads/H_R2.fastq --outTmpDir /tmp/tmpy18f6b8b/temp --outFileNamePrefix /tmp/tmpy18f6b8b/ --outStd Log
+	STAR version: 2.7.10a   compiled: 2022-01-14T18:50:00-05:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Jun 07 17:44:36 ..... started STAR run
+Jun 07 17:44:36 ..... loading genome
+Jun 07 17:44:38 ..... started mapping
+Jun 07 17:47:44 ..... finished mapping
+Jun 07 17:47:44 ..... finished successfully

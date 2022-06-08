@@ -1,0 +1,25 @@
+
+  /// MultiQC 🔍 | v1.12
+
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/A_R1_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/H_R2_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/C_R1_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/C_R2_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/A_R2_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/H_R1_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/F_R2_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/B_R1_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/G_R2_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/G_R1_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/D_R1_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/E_R1_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/F_R1_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/B_R2_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/E_R2_fastqc
+|           multiqc | Search path : /students/rita.monstvilaite/Snakemake/qc/fastqc/D_R2_fastqc
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 272/272  
+|            fastqc | Found 16 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : qc/multiqc.html
+|           multiqc | Data        : qc/multiqc_data
+|           multiqc | MultiQC complete

@@ -1,0 +1,19 @@
+### STAR   --runMode genomeGenerate      --runThreadN 1   --genomeDir chr19_20Mb   --genomeFastaFiles annotation/chr19_20Mb.fa      --outTmpDir /tmp/tmpozat4amn/STARtmp   --sjdbGTFfile annotation/chr19_20Mb.gtf   --sjdbOverhang 100
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	annotation/chr19_20Mb.fa 
+genomeSAindexNbases	14
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	100
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	annotation/chr19_20Mb.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	20385083 165321753

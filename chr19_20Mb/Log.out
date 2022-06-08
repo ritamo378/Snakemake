@@ -1,0 +1,81 @@
+STAR version=2.7.10a
+STAR compilation time,server,dir=2022-01-14T18:50:00-05:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+STAR git: On branch master ; commit ae26add7ea1724f3281ec8abedb71bcff6a4ae73 ; diff files: CHANGES.md README.md RELEASEnotes.md doc/STARmanual.pdf extras/doc-latex/STARmanual.tex extras/doc-latex/convertParDefToLatexTable.awk extras/doc-latex/parametersDefault.tex extras/docker/Dockerfile source/VERSION 
+##### Command Line:
+STAR --runThreadN 1 --runMode genomeGenerate --genomeFastaFiles annotation/chr19_20Mb.fa --sjdbOverhang 100 --sjdbGTFfile annotation/chr19_20Mb.gtf --outTmpDir /tmp/tmpozat4amn/STARtmp --genomeDir chr19_20Mb
+##### Initial USER parameters from Command Line:
+outTmpDir                         /tmp/tmpozat4amn/STARtmp
+###### All USER parameters from Command Line:
+runThreadN                    1     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeFastaFiles              annotation/chr19_20Mb.fa        ~RE-DEFINED
+sjdbOverhang                  100     ~RE-DEFINED
+sjdbGTFfile                   annotation/chr19_20Mb.gtf     ~RE-DEFINED
+outTmpDir                     /tmp/tmpozat4amn/STARtmp     ~RE-DEFINED
+genomeDir                     chr19_20Mb     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        1
+genomeDir                         chr19_20Mb
+genomeFastaFiles                  annotation/chr19_20Mb.fa   
+outTmpDir                         /tmp/tmpozat4amn/STARtmp
+sjdbGTFfile                       annotation/chr19_20Mb.gtf
+sjdbOverhang                      100
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate      --runThreadN 1   --genomeDir chr19_20Mb   --genomeFastaFiles annotation/chr19_20Mb.fa      --outTmpDir /tmp/tmpozat4amn/STARtmp   --sjdbGTFfile annotation/chr19_20Mb.gtf   --sjdbOverhang 100
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: chr19_20Mb/
+Jun 07 17:01:30 ... starting to generate Genome files
+annotation/chr19_20Mb.fa : chr # 0  "chr19" chrStart: 0
+Chromosome sequence lengths: 
+chr19	19999999
+Genome sequence total length = 19999999
+Genome size with padding = 20185088
+Jun 07 17:01:30 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=annotation/chr19_20Mb.gtf, found:
+		663 transcripts
+		3656 exons (non-collapsed)
+		995 collapsed junctions
+Total junctions: 995
+Jun 07 17:01:30 ..... finished GTF processing
+
+!!!!! WARNING: --genomeSAindexNbases 14 is too large for the genome size=19999999, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 11
+Estimated genome size with padding and SJs: total=genome+SJ=221185088 = 20185088 + 201000000
+GstrandBit=32
+Number of SA indices: 39680000
+Jun 07 17:01:30 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 1;   chunks size limit: 18575777768 bytes
+Jun 07 17:01:31 ... sorting Suffix Array chunks and saving them to disk...
+Writing 317440000 bytes into chr19_20Mb//SA_0 ; empty space on disk = 29817077760 bytes ... done
+Jun 07 17:02:04 ... loading chunks from disk, packing SA...
+Jun 07 17:02:05 ... finished generating suffix array
+Jun 07 17:02:05 ... generating Suffix Array index
+Jun 07 17:02:19 ... completed Suffix Array index
+Jun 07 17:02:19   Finished preparing junctions
+Jun 07 17:02:19 ..... inserting junctions into the genome indices
+Jun 07 17:02:21   Finished SA search: number of new junctions=995, old junctions=0
+Jun 07 17:02:21   Finished sorting SA indicesL nInd=398000
+Genome size with junctions=20385083  20185088   199995
+GstrandBit1=32   GstrandBit=32
+Jun 07 17:02:22   Finished inserting junction indices
+Jun 07 17:02:38   Finished SAi
+Jun 07 17:02:38 ..... finished inserting junctions into genome
+Jun 07 17:02:38 ... writing Genome to disk ...
+Writing 20385083 bytes into chr19_20Mb//Genome ; empty space on disk = 29816938496 bytes ... done
+SA size in bytes: 165321753
+Jun 07 17:02:38 ... writing Suffix Array to disk ...
+Writing 165321753 bytes into chr19_20Mb//SA ; empty space on disk = 29796454400 bytes ... done
+Jun 07 17:02:39 ... writing SAindex to disk
+Writing 8 bytes into chr19_20Mb//SAindex ; empty space on disk = 29630451712 bytes ... done
+Writing 120 bytes into chr19_20Mb//SAindex ; empty space on disk = 29630451712 bytes ... done
+Writing 1565873491 bytes into chr19_20Mb//SAindex ; empty space on disk = 29630451712 bytes ... done
+Jun 07 17:02:41 ..... finished successfully
+DONE: Genome generation, EXITING

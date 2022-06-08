@@ -1,0 +1,19 @@
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - snakemake
+  - jinja2
+  - networkx
+  - matplotlib
+  - graphviz
+  - bcftools
+  - samtools
+  - bwa
+  - pysam
+  - fastqc
+  - multiqc
+  - star
+  - bbmap
+  - snakemake-wrapper-utils
+
