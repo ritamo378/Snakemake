@@ -1,0 +1,8 @@
+	STAR --runThreadN 2 --genomeDir chr19_20Mb --readFilesIn reads/A_R1.fastq reads/A_R2.fastq --outStd BAM_SortedByCoordinate --outSAMtype BAM SortedByCoordinate --outFileNamePrefix star/se/A_R/
+	STAR version: 2.7.10a   compiled: 2022-01-14T18:50:00-05:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Jun 08 22:20:23 ..... started STAR run
+Jun 08 22:20:23 ..... loading genome
+Jun 08 22:20:25 ..... started mapping
+Jun 08 22:21:14 ..... finished mapping
+Jun 08 22:21:14 ..... started sorting BAM
+Jun 08 22:21:31 ..... finished successfully
