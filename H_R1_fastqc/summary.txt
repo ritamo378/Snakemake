@@ -1,0 +1,11 @@
+PASS	Basic Statistics	H_R1.fastq
+PASS	Per base sequence quality	H_R1.fastq
+WARN	Per tile sequence quality	H_R1.fastq
+PASS	Per sequence quality scores	H_R1.fastq
+WARN	Per base sequence content	H_R1.fastq
+FAIL	Per sequence GC content	H_R1.fastq
+PASS	Per base N content	H_R1.fastq
+PASS	Sequence Length Distribution	H_R1.fastq
+FAIL	Sequence Duplication Levels	H_R1.fastq
+WARN	Overrepresented sequences	H_R1.fastq
+FAIL	Adapter Content	H_R1.fastq
